@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --text-color: #1a202c;
+  --opposite-color: #ffffff;
+}
+
+.dark {
+  --background: #060606;
+  --text-color: #ffffff;
+  --opposite-color: #1a202c;
+}
+
+@font-face {
+  font-family: 'Typewriter';
+  src: url('./fonts/jmh-typewriter.thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  @apply font-sans;
+  width: 100%;
+  @apply bg-[var(--background)] text-[var(--text-color)] min-h-screen;
+}
