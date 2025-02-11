@@ -4,48 +4,91 @@
     "heading": "wireless ergo  digital",
     "description": "colourful, ergonomic and modern solution for etr and sales",
     "thumbnailSrc": "/pos/pos-terminal.png",
-    "bgColor": "#fcf4ff"
+    "bgColor": "#fcf4ff",
+    "bgColorDark": "#010101",
+    "value": 26000,
+    "imageList": [
+      { "alt": "pos-terminal 1", "path": "/pos-xtra/pos-terminal-1.jpg" },
+      { "alt": "pos-terminal 2", "path": "/pos-xtra/pos-terminal-2.jpg" },
+      { "alt": "pos-terminal 3", "path": "/pos-xtra/pos-terminal-3.jpg" }
+    ]
   },
   {
     "id": 2,
     "heading": "wireless digital",
     "description": "Cheaper alternative for the ergo version but still effective",
     "thumbnailSrc": "/pos/pos-mobile.png",
-    "bgColor": "#e0f7fa"
+    "bgColor": "#e0f7fa",
+    "bgColorDark": "#010101",
+    "value": 24000,
+    "imageList": [
+      { "alt": "pos mobile", "path": "/pos-xtra/pos-mobile-1.jpg" },
+      { "alt": "pos mobile 2", "path": "/pos-xtra/pos-mobile-2.jpg" }
+    ]
   },
   {
     "id": 3,
     "heading": "side card wireless",
     "description": "this model defers from the rest as it uses a side card reader and connects to PCs",
     "thumbnailSrc": "/pos/pos-mob2.png",
-    "bgColor": "#fff3e0"
+    "bgColor": "#fff3e0",
+    "bgColorDark": "#010101",
+    "value": 21000,
+    "imageList": [
+      { "alt": "pos mob", "path": "/pos-xtra/pos-mob-1.jpg" },
+      { "alt": "pos terminal 2", "path": "/pos-xtra/pos-terminal-2.jpg" }
+    ]
   },
   {
     "id": 4,
     "heading": "PoS PC",
     "description": "Modern POS computer normal in large supermarkets",
     "thumbnailSrc": "/pos/point-of-sale.png",
-    "bgColor": "#fcf4ff"
+    "bgColor": "#fcf4ff",
+    "bgColorDark": "#010101",
+    "value": 56000,
+    "imageList": [
+      { "alt": "pos 2", "path": "/pos-xtra/pos-2.jpg" },
+      { "alt": "pos", "path": "/pos-xtra/pos-1.jpg" }
+    ]
   },
   {
     "id": 5,
     "heading": "checkout machine",
     "description": "Old school checkout machine normal in numerous SMEs",
     "thumbnailSrc": "/pos/checkout.png",
-    "bgColor": "#e0f7fa"
+    "bgColor": "#e0f7fa",
+    "bgColorDark": "#010101",
+    "value": 27000,
+    "imageList": [
+      { "alt": "cash machine", "path": "/pos-xtra/cash-machine-1.jpg" },
+      { "alt": "cash register 2", "path": "/pos-xtra/cash-regiter-2.jpg" }
+    ]
   },
   {
     "id": 6,
     "heading": "Modern cash register",
     "description": "Modern cash register with an ergo and soft feel",
     "thumbnailSrc": "/pos/cash-register.png",
-    "bgColor": "#fff3e0"
+    "bgColor": "#fff3e0",
+    "bgColorDark": "#010101",
+    "value": 45000,
+    "imageList": [
+      { "alt": "digital register", "path": "/pos-xtra/e-cash-register-1.jpg" },
+      { "alt": "digital register 2", "path": "/pos-xtra/e-cash-register-2.jpg" }
+    ]
   },
   {
     "id": 7,
     "heading": "Normal cash machine",
     "description": "Ordinary POS cash machine  normal in large SMEs",
     "thumbnailSrc": "/pos/cash-machine.png",
-    "bgColor": "#fcf4ff"
+    "bgColor": "#fcf4ff",
+    "bgColorDark": "#010101",
+    "value": 35000,
+    "imageList": [
+      { "alt": "cash register", "path": "/pos-xtra/cash-register-1.jpg" },
+      { "alt": "cash machine", "path": "/pos-xtra/cash-machine-1.jpg" }
+    ]
   }
 ]

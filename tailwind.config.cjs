@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Typewriter', 'sans-serif'], // Set as default
+        sans: ['Typewriter', 'monospace'], // Set as default
       },
       colors: {
         background: {

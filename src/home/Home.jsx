@@ -3,12 +3,12 @@ import PosData from './../assets/pos/items.json';
 
 export const Home = () => (
   <div className="mt-10 flex w-full flex-row">
-    <div className="mt-32 w-6/12 flex items-start flex-col justify-between h-1/2 gap-16">
+    <div className="mt-32 w-1/3 flex items-start flex-col justify-between h-1/2 gap-16">
       <button
         className="bg-transparent text-black border border-black
       hover:bg-black hover:text-white hover:border-white
-       dark:bg-transparent dark:text-white dark:border-white
-      dark:hover:bg-black dark:hover:text-red-700 dark:hover:border-white
+       dark:bg-transparent dark:text-gray-500 dark:border-white
+      dark:hover:bg-black dark:hover:text-white dark:hover:border-white
       font-semibold py-2 px-4 w-80 h-14 border-solid"
       >
         Products
@@ -16,8 +16,8 @@ export const Home = () => (
       <button
         className="bg-transparent text-black border border-black
       hover:bg-black hover:text-white hover:border-white
-       dark:bg-transparent dark:text-white dark:border-white
-      dark:hover:bg-black dark:hover:text-red-700 dark:hover:border-white
+       dark:bg-transparent dark:text-gray-500 dark:border-white
+      dark:hover:bg-black dark:hover:text-white dark:hover:border-white
       font-semibold py-2 px-4 w-80 h-14 border-solid"
       >
         About
@@ -25,22 +25,24 @@ export const Home = () => (
       <button
         className="bg-transparent text-black border border-black
       hover:bg-black hover:text-white hover:border-white
-       dark:bg-transparent dark:text-white dark:border-white
-      dark:hover:bg-black dark:hover:text-red-700 dark:hover:border-white
+       dark:bg-transparent dark:text-gray-500 dark:border-white
+      dark:hover:bg-black dark:hover:text-white dark:hover:border-white
       font-semibold py-2 px-4 w-80 h-14 border-solid"
       >
         Contacts
       </button>
     </div>
-    <div className="w-6/12 h-screen overflow-y-scroll  rounded-lg p-4">
+    <div className="w-4/6 h-screen overflow-y-scroll  rounded-lg p-4">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6  ">
         {PosData.map((card) => (
           <PosCard
             key={card.id}
-            className={`bg-[${card.bgColor}]`}
+            className={`bg-[${card.bgColor}] dark:bg-[${card.bgColorDark}]`}
             heading={card.heading}
             description={card.description}
             thumbnailSrc={card.thumbnailSrc}
+            price={card.value}
+            imageList={card.imageList}
           />
         ))}
       </div>
