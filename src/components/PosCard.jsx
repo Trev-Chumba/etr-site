@@ -2,6 +2,8 @@ import NumberFlow from '@number-flow/react';
 import { ShoppingCart } from 'lucide-react';
 import { ItemDialog } from './ItemDialog';
 import { useState } from 'react';
+import { useCart } from '../general/Contexts/CartContext';
+
 export function PosCard({
   heading,
 
@@ -14,20 +16,24 @@ export function PosCard({
   className,
 
   price,
+
   imageList,
+
+  id,
 }) {
   const [open, setOpen] = useState(false);
+  const { addItem, cartItems } = useCart();
   return (
     <div>
       <div
         className={`rounded-lg p-6 shadow-lg shadow-stone-300 dark:shadow-stone-950 ${className} flex flex-col h-full`}
-        onClick={() => setOpen(true)}
       >
         <div className="overflow-hidden rounded-lg">
           <img
             className="w-2/5 cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto"
             src={thumbnailSrc}
             alt={thumbnailAlt}
+            onClick={() => setOpen(true)}
           />
         </div>
         <div className="flex flex-col flex-grow justify-between">
@@ -35,6 +41,7 @@ export function PosCard({
             <h2
               className="pt-5 text-3xl font-bold text-gray-600 block cursor-pointer duration-300 transition 
            hover:text-gray-900 dark:hover:text-white mt-2"
+              onClick={() => setOpen(true)}
             >
               {heading}
             </h2>
@@ -47,14 +54,32 @@ export function PosCard({
             </p>
           </div>
           <div className="flex justify-between items-end mt-auto w-full">
-            <button
-              className="flex items-center gap-2 font-semibold rounded-full border border-primary 
+            {cartItems.includes(id) ? (
+              <button
+                className="flex items-center gap-2 font-semibold rounded-full border border-primary 
+               px-4 py-2 text-xs text-white bg-gray-800 cursor-pointer 
+              "
+                onClick={() => {
+                  addItem(id);
+                }}
+                disabled
+              >
+                <ShoppingCart size={16} className="text-green-300" />
+                Item added
+              </button>
+            ) : (
+              <button
+                className="flex items-center gap-2 font-semibold rounded-full border border-primary 
                px-4 py-2 text-xs text-gray-500 cursor-pointer 
                hover:text-gray-900 dark:hover:text-white"
-            >
-              <ShoppingCart size={16} />
-              Add item
-            </button>
+                onClick={() => {
+                  addItem(id);
+                }}
+              >
+                <ShoppingCart size={16} />
+                Add item
+              </button>
+            )}
 
             <p
               className="font-semibold text-gray-500 cursor-pointer text-lg 
@@ -77,6 +102,7 @@ export function PosCard({
         description={description}
         price={price}
         opened={open}
+        setOpen={setOpen}
         images={imageList}
       />
     </div>

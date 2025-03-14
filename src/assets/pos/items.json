@@ -8,9 +8,9 @@
     "bgColorDark": "#010101",
     "value": 26000,
     "imageList": [
-      { "alt": "pos-terminal 1", "path": "/pos-xtra/pos-terminal-1.jpg" },
-      { "alt": "pos-terminal 2", "path": "/pos-xtra/pos-terminal-2.jpg" },
-      { "alt": "pos-terminal 3", "path": "/pos-xtra/pos-terminal-3.jpg" }
+      { "alt": "pos-terminal 1", "src": "/pos-xtra/pos-terminal-1.jpg" },
+      { "alt": "pos-terminal 2", "src": "/pos-xtra/pos-terminal-2.jpg" },
+      { "alt": "pos-terminal 3", "src": "/pos-xtra/pos-terminal-3.jpg" }
     ]
   },
   {
@@ -22,8 +22,8 @@
     "bgColorDark": "#010101",
     "value": 24000,
     "imageList": [
-      { "alt": "pos mobile", "path": "/pos-xtra/pos-mobile-1.jpg" },
-      { "alt": "pos mobile 2", "path": "/pos-xtra/pos-mobile-2.jpg" }
+      { "alt": "pos mobile", "src": "/pos-xtra/pos-mobile-1.jpg" },
+      { "alt": "pos mobile 2", "src": "/pos-xtra/pos-mobile-2.jpg" }
     ]
   },
   {
@@ -35,8 +35,8 @@
     "bgColorDark": "#010101",
     "value": 21000,
     "imageList": [
-      { "alt": "pos mob", "path": "/pos-xtra/pos-mob-1.jpg" },
-      { "alt": "pos terminal 2", "path": "/pos-xtra/pos-terminal-2.jpg" }
+      { "alt": "pos mob", "src": "/pos-xtra/pos-mob-1.jpg" },
+      { "alt": "pos terminal 2", "src": "/pos-xtra/pos-terminal-2.jpg" }
     ]
   },
   {
@@ -48,8 +48,8 @@
     "bgColorDark": "#010101",
     "value": 56000,
     "imageList": [
-      { "alt": "pos 2", "path": "/pos-xtra/pos-2.jpg" },
-      { "alt": "pos", "path": "/pos-xtra/pos-1.jpg" }
+      { "alt": "pos 2", "src": "/pos-xtra/pos-2.jpg" },
+      { "alt": "pos", "src": "/pos-xtra/pos-1.jpg" }
     ]
   },
   {
@@ -61,8 +61,8 @@
     "bgColorDark": "#010101",
     "value": 27000,
     "imageList": [
-      { "alt": "cash machine", "path": "/pos-xtra/cash-machine-1.jpg" },
-      { "alt": "cash register 2", "path": "/pos-xtra/cash-regiter-2.jpg" }
+      { "alt": "cash machine", "src": "/pos-xtra/cash-machine-1.jpg" },
+      { "alt": "cash register 2", "src": "/pos-xtra/cash-register-2.jpg" }
     ]
   },
   {
@@ -74,8 +74,8 @@
     "bgColorDark": "#010101",
     "value": 45000,
     "imageList": [
-      { "alt": "digital register", "path": "/pos-xtra/e-cash-register-1.jpg" },
-      { "alt": "digital register 2", "path": "/pos-xtra/e-cash-register-2.jpg" }
+      { "alt": "digital register", "src": "/pos-xtra/e-cash-register-1.jpg" },
+      { "alt": "digital register 2", "src": "/pos-xtra/e-cash-register-2.jpg" }
     ]
   },
   {
@@ -87,8 +87,8 @@
     "bgColorDark": "#010101",
     "value": 35000,
     "imageList": [
-      { "alt": "cash register", "path": "/pos-xtra/cash-register-1.jpg" },
-      { "alt": "cash machine", "path": "/pos-xtra/cash-machine-1.jpg" }
+      { "alt": "cash register", "src": "/pos-xtra/cash-register-1.jpg" },
+      { "alt": "cash machine", "src": "/pos-xtra/cash-machine-1.jpg" }
     ]
   }
 ]
