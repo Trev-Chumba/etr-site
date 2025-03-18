@@ -6,12 +6,14 @@
   --background: #ffffff;
   --text-color: #1a202c;
   --opposite-color: #ffffff;
+  --overlay-color: #ffffff;
 }
 
 .dark {
-  --background: #040608;
+  --background: #0d0d0d;
   --text-color: #ffffff;
   --opposite-color: #1a202c;
+  --overlay-color: #121212;
 }
 
 @font-face {

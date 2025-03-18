@@ -1,5 +1,5 @@
 export const Footer = () => (
-  <footer className="bg-gray-200 dark:bg-black text-center py-4 mt-8">
+  <footer className="bg-gray-200 dark:bg-black text-center py-4 mt-8 mb-0">
     <p className="text-sm font-thin text-gray-700 dark:text-gray-300">
       Icons by{' '}
       <a

@@ -35,7 +35,7 @@ export const Home = () => {
   const [see, setSee] = useState(false);
   return (
     <div className="mt-10 flex w-full lg:flex-row flex-col pl-5 pr-5">
-      <div className="lg:w-4/6 w-auto h-screen overflow-y-scroll z-20 rounded-lg p-4">
+      <div className="lg:w-4/6 w-auto h-screen overflow-y-auto z-20 rounded-lg p-4">
         <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-8  ">
           <Helmet>
             <title>ETR Print Store</title>
@@ -64,7 +64,7 @@ export const Home = () => {
           {PosData.map((card) => (
             <PosCard
               key={card.id}
-              className={`bg-[${card.bgColor}] dark:bg-[${card.bgColorDark}]`}
+              className={`bg-[${card.bgColor}] dark:bg-[var(--overlay-color)]`}
               heading={card.heading}
               description={card.description}
               thumbnailSrc={card.thumbnailSrc}
@@ -79,7 +79,7 @@ export const Home = () => {
         <button
           className="bg-transparent text-black border border-black
       hover:bg-black hover:text-white hover:border-white
-       dark:bg-transparent dark:text-gray-500 dark:border-white
+       dark:bg-transparent dark:text-gray-300 dark:border-white
       dark:hover:bg-black dark:hover:text-white dark:hover:border-white
       font-semibold py-2 px-4 w-80 h-14 border-solid"
           onClick={() => setSee(!see)}

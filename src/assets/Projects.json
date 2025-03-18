@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "title": "Landing page",
+    "description": "A challenge on front end development colourful interactive but largely for show",
+    "link": "https://trev-chumba.github.io/Huddle-landing/"
+  },
+  {
+    "id": 2,
+    "title": "Shopping site",
+    "description": "An e-commerce shopping site that has a lof of interaction complete with a receipt. Found locally for quick viewing by React",
+    "local": "/products"
+  },
+  {
+    "id": 3,
+    "title": "Web/Mobile word games",
+    "description": "Crossword, Codeword and hangman word games yet to come and will be launched on web first. React and Android"
+  }
+]

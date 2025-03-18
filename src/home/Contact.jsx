@@ -67,7 +67,7 @@ export function Contact() {
 
   return (
     <div className="flex flex-col">
-      <div className="relative rounded-lg bg-white p-8 shadow-sm  dark:bg-gray-950 sm:p-12">
+      <div className="relative rounded-lg  p-8  shadow-lg shadow-stone-300 dark:shadow-stone-950 bg-[var(--overlay-color)] sm:p-12">
         <h2 className="text-xl font-semibold mb-4">Contact Me</h2>
         <ToastContainer />
         <form onSubmit={handleSubmit} className="space-y-7 mb-2">
@@ -77,7 +77,7 @@ export function Contact() {
             value={formData.name}
             onChange={handleChange}
             placeholder="Your Name"
-            className="w-full p-3 border rounded  dark:bg-slate-900"
+            className="w-full p-3 border rounded  dark:bg-[var(--overlay-color)]"
             required
           />
           <input
@@ -86,7 +86,7 @@ export function Contact() {
             value={formData.email}
             onChange={handleChange}
             placeholder="Your Email"
-            className="w-full p-3 border rounded  dark:bg-slate-900"
+            className="w-full p-3 border rounded  dark:bg-[var(--overlay-color)]"
             required
           />
           <textarea
@@ -94,7 +94,7 @@ export function Contact() {
             value={formData.message}
             onChange={handleChange}
             placeholder="Your Message"
-            className="w-full p-2 border rounded  dark:bg-slate-900"
+            className="w-full p-2 border rounded  dark:bg-[var(--overlay-color)]"
             rows="4"
             required
           />
