@@ -1,4 +1,8 @@
-> You can make sure you are running Node.js 18 with `nvm`. Run `nvm use` to set the Node.js 18 in this project.
+## 👋 Hello welcome to my Portfolio e-commerce site!
+
+    This is a site made to showcase my abilities as a web developer hopefully bigger and better     projects to come.
+
+💡 Always open to collaborations and exciting projects! 🚀
 
 ## Develop
 
