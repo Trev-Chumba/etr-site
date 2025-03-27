@@ -51,9 +51,10 @@ export function About() {
             </p>
             <p className="text-lg mb-3">
               In those projects I have been able to work on small and large
-              scale applications that require very levels of supervision whie
-              working with various leveles of users. This has shaped me to be
-              flexible, timely and collaborative.
+              scale applications that required minimal-medium levels of
+              supervision. This also required working with multiple users with
+              various aptitude and knowledge of computers ingeneral. This has
+              shaped me to be flexible, timely and collaborative.
             </p>
           </FadeInUp>
         </div>

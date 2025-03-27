@@ -79,7 +79,7 @@ export const Home = () => {
         <button
           className="bg-transparent text-black border border-black
       hover:bg-black hover:text-white hover:border-white
-       dark:bg-transparent dark:text-gray-300 dark:border-white
+       dark:bg-transparent dark:text-white dark:border-white
       dark:hover:bg-black dark:hover:text-white dark:hover:border-white
       font-semibold py-2 px-4 w-80 h-14 border-solid"
           onClick={() => setSee(!see)}

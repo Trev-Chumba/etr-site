@@ -39,7 +39,7 @@ export function PosCard({
         <div className="flex flex-col flex-grow justify-between">
           <div>
             <h2
-              className="pt-5 text-3xl font-bold text-gray-600 block cursor-pointer duration-300 transition 
+              className="pt-5 text-3xl font-bold text-black dark:text-white block cursor-pointer duration-300 transition 
            hover:text-gray-900 dark:hover:text-white mt-2"
               onClick={() => setOpen(true)}
             >
@@ -47,7 +47,7 @@ export function PosCard({
             </h2>
 
             <p
-              className="font-normal text-gray-500 cursor-pointer text-base 
+              className="font-normal text-black dark:text-white cursor-pointer text-base 
             mt-2"
             >
               {description}
@@ -70,7 +70,7 @@ export function PosCard({
             ) : (
               <button
                 className="flex items-center gap-2 font-semibold rounded-full border border-primary 
-               px-4 py-2 text-xs text-gray-500 cursor-pointer 
+               px-4 py-2 text-xs text-green-400 cursor-pointer 
                hover:text-gray-900 dark:hover:text-white"
                 onClick={() => {
                   addItem(id);
@@ -82,7 +82,7 @@ export function PosCard({
             )}
 
             <p
-              className="font-semibold text-gray-500 cursor-pointer text-lg 
+              className="font-semibold text-black dark:text-white cursor-pointer text-lg 
                duration-300 transition hover:text-gray-900 dark:hover:text-white"
             >
               <NumberFlow
