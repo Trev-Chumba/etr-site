@@ -66,7 +66,7 @@ export function Contact() {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-full">
       <div className="relative rounded-lg  p-8  shadow-lg shadow-stone-300 dark:shadow-stone-950 bg-[var(--overlay-color)] sm:p-12">
         <h2 className="text-xl font-semibold mb-4">Contact Me</h2>
         <ToastContainer />

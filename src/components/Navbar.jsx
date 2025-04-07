@@ -20,11 +20,11 @@ export const Navbar = ({ toggleDrawer }) => {
             width={72}
             onClick={() => navigate('/')}
           />
-          <h1 className="w-full text-2xl font-bold text-[#ffffff] ">
+          {/* <h1 className="w-full text-2xl font-bold text-[#ffffff] ">
             <Link to="/" className="hover:text-gray-300">
               About
             </Link>
-          </h1>
+          </h1> */}
         </div>
 
         <button
@@ -43,20 +43,20 @@ export const Navbar = ({ toggleDrawer }) => {
         >
           <li>
             <Link
+              to="/"
+              className="inline-block py-2 text-base font-semibold whitespace-nowrap text-white hover:text-gray-600 lg:inline-flex"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/products"
               className="inline-block py-2 text-base font-semibold whitespace-nowrap text-white hover:text-gray-600 lg:inline-flex"
             >
               Shopping
             </Link>
           </li>
-          {/* <li>
-            <Link
-              to="/"
-              className="inline-block py-2 text-base font-semibold whitespace-nowrap text-white hover:text-gray-600 lg:inline-flex"
-            >
-              Mobile App
-            </Link>
-          </li> */}
         </ul>
       </div>
       <div className="px-16 flex flex-row justify-between space-x-4">

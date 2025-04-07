@@ -22,16 +22,16 @@ export function About() {
         <meta name="author" content="Trevor Chumba" />
         <link rel="icon" href="/my-logo.svg" />
       </Helmet>
-      <div className="mt-10 flex lg:w-2/3 lg:flex-row lg:justify-bettween md:justify-between  flex-col pl-5 pr-5 mx-auto">
+      <div className="mt-10 flex lg:w-2/3 lg:flex-row lg:justify-between md:justify-between w-full flex-col pl-5 pr-5 mx-auto">
         <div>
           <img
             src="/profile-avatar.svg"
             alt="profile image"
-            className="lg:w-96 w-64 lg:h-auto h-96 md:w-72 
+            className="lg:w-96  lg:h-auto h-5/6 md:w-72 w-10/12
              rounded-md shadow-lg shadow-stone-300 dark:shadow-stone-950"
           />
         </div>
-        <div className="md:ml-2 w-2/3">
+        <div className="md:ml-2 lg:ml-6 w-full">
           <FadeInDown>
             <h1 className="font-bold text-4xl mb-3 ">
               Hello, My name is Trevor a developer based in Kenya🇰🇪!

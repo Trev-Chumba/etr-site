@@ -75,7 +75,7 @@ export const Home = () => {
           ))}
         </div>
       </div>
-      <div className="mt-14 w-1/3 flex lg:items-end items-start flex-col justify-between h-1/2 gap-16">
+      <div className="mt-14 lg:w-1/3 w-full flex lg:items-end items-start flex-col justify-between h-1/2 gap-16">
         <button
           className="bg-transparent text-black border border-black
       hover:bg-black hover:text-white hover:border-white
@@ -86,7 +86,7 @@ export const Home = () => {
         >
           Contacts
         </button>
-        <div className="w-11/12">{see && <Contact />}</div>
+        <div className="lg:w-11/12 w-full">{see && <Contact />}</div>
       </div>
     </div>
   );
