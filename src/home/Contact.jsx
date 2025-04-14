@@ -46,6 +46,12 @@ export function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email)) {
+      alert('Please enter a valid email address');
+      return;
+    }
+
     emailjs
       .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trev-chumba-etr.vercel.app/sitemap.xml

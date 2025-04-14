@@ -2,6 +2,8 @@
 
     This is a site made to showcase my abilities as a web developer hopefully bigger and better     projects to come.
 
+    Please try completing the buying process you should have a pdf quotation at the end.
+
 💡 Always open to collaborations and exciting projects! 🚀
 
 ## Develop
