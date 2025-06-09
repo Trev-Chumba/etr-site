@@ -13,7 +13,8 @@
   },
   {
     "id": 3,
-    "title": "Web/Mobile word games",
-    "description": "Crossword, Codeword and hangman word games yet to come and will be launched on web first. React and Android"
+    "title": "Web games",
+    "description": "Crossword, Codeword and hangman word games made from React later will be on Android",
+    "link": "https://crossword-wordsearch.vercel.app/"
   }
 ]
