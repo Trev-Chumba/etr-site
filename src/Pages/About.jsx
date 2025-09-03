@@ -4,6 +4,7 @@ import Projects from './../assets/Projects.json';
 import { Helmet } from 'react-helmet-async';
 import { Contact } from '../home/Contact';
 import { motion } from 'framer-motion';
+import { TechStack } from '../components/TechStack';
 
 export function About() {
   //   const [fade, setFade] = useState(false);
@@ -68,6 +69,10 @@ export function About() {
           {Projects.map((project) => (
             <ProjectCard key={project.id} {...project} />
           ))}
+        </div>
+        <div className="mt-4">
+          <h1 className="text-2xl font-bold">Stack</h1>
+          <TechStack />
         </div>
         <div className="mt-4">
           <h1 className="text-2xl font-bold">Email Me</h1>
