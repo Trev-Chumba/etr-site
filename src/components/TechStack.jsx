@@ -29,7 +29,7 @@ export const TechStack = () => {
         </figure>
         <figure aria-label="React Icon" role="img" title="Next js">
           <StackIcon
-            name="nextjs"
+            name="nextjs2"
             className="w-16 h-16 sm:w-12 sm:h-12 rounded animate-bounce"
           />
         </figure>
