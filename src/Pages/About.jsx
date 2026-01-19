@@ -62,7 +62,7 @@ export function About() {
       </div>
       <div className="flex flex-col lg:w-2/3 lg:mx-auto justify-evenly ml-2 mt-24">
         <div>
-          <h1 className="text-2xl font-bold">Projects</h1>
+          <h2 className="text-2xl font-bold">Projects</h2>
           <h2 className="text-lg font-normal">Side projects in the work</h2>
         </div>
         <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 mt-4">
@@ -71,11 +71,11 @@ export function About() {
           ))}
         </div>
         <div className="mt-4">
-          <h1 className="text-2xl font-bold">Stack</h1>
+          <h2 className="text-2xl font-bold">Stack</h2>
           <TechStack />
         </div>
         <div className="mt-4">
-          <h1 className="text-2xl font-bold">Email Me</h1>
+          <h2 className="text-2xl font-bold">Email Me</h2>
           <Contact />
         </div>
       </div>
