@@ -11,7 +11,7 @@ export function About() {
   return (
     <div className="flex w-full  flex-col pl-5 pr-5">
       <Helmet>
-        <title>About Me</title>
+        <title>About Me Page</title>
         <meta
           name="description"
           content="Trevor Chumba is a front-end developer passionate about creating user-friendly, modern interfaces."
